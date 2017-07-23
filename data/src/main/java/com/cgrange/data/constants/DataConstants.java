@@ -18,6 +18,9 @@ public class DataConstants {
     // USED TO STORE URL IN PREFERENCES
     public static final String FEED_URL = "FEED_URL";
 
+    // USED TO SAVE IN PREFERENCES WHEN USER CHANGES FEED URL
+    public static final String FEED_URL_CHANGED = "FEED_URL_CHANGED";
+
     /**
      * Enumeración que representa los distintos tipos de feed.
      */

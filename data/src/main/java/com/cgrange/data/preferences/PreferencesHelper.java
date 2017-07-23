@@ -33,4 +33,14 @@ public class PreferencesHelper {
         editor.putString(DataConstants.FEED_URL, url);
         editor.apply();
     }
+
+    public static boolean isFeedUrlChanged(@NonNull Context context){
+        return getPreferences(context).getBoolean(DataConstants.FEED_URL_CHANGED, false);
+    }
+
+    public static void storeFeedUrlChanged(@NonNull Context context, boolean isChanged){
+        SharedPreferences.Editor editor = getPreferences(context).edit();
+        editor.putBoolean(DataConstants.FEED_URL_CHANGED, isChanged);
+        editor.apply();
+    }
 }

@@ -20,5 +20,6 @@ class SettingsInteractor implements SettingsContracts.Interactor {
     @Override
     public void storeFeedUrl(@NonNull String url) {
         LectorRSSRepository.storeFeedUrl(view.getContext(), url);
+        LectorRSSRepository.storeFeedUrlChanged(view.getContext(), true);
     }
 }

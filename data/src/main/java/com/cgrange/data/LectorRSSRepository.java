@@ -58,4 +58,12 @@ public class LectorRSSRepository {
     public static String getFeedUrl(@NonNull Context context){
         return PreferencesHelper.getFeedUrl(context);
     }
+
+    public static void storeFeedUrlChanged(@NonNull Context context, boolean isChanged){
+        PreferencesHelper.storeFeedUrlChanged(context, isChanged);
+    }
+
+    public static boolean isFeedUrlChanged(@NonNull Context context){
+        return PreferencesHelper.isFeedUrlChanged(context);
+    }
 }

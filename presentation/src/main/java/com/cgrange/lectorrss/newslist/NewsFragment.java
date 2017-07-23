@@ -9,9 +9,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.cgrange.data.LectorRSSRepository;
 import com.cgrange.data.constants.DataConstants;
-import com.cgrange.lectorrss.abstracts.AbstractFragment;
 import com.cgrange.lectorrss.R;
+import com.cgrange.lectorrss.abstracts.AbstractFragment;
 import com.cgrange.lectorrss.databinding.FragmentNewsBinding;
 
 /**
@@ -83,5 +84,13 @@ public class NewsFragment extends AbstractFragment implements NewsContracts.News
     @Override
     public void showConnectionError() {
         Snackbar.make(fragmentNewsBinding.recyclerView, R.string.connection_error, Snackbar.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (LectorRSSRepository.isFeedUrlChanged(getContext()))
+            presenter.requestNews();
+        LectorRSSRepository.storeFeedUrlChanged(getContext(), false);
     }
 }

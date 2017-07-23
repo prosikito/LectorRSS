@@ -50,7 +50,7 @@ Base de datos local
 
 
 
-##Patrón de diseño
+## Patrón de diseño
 
 Esta app utiliza una arquitectura "Clean" (Clean Architecture https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html) cuyos principios se basan en la separación entre la vista, la lógica de dominio y los proveedores de datos. El Lector RSS se compone de tres módulos:
 

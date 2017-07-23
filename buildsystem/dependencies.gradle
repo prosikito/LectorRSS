@@ -1,0 +1,18 @@
+allprojects {
+  repositories {
+    jcenter()
+  }
+}
+
+ext {
+
+  // Android SDK and tools
+  androidBuildToolsVersion        = "25.0.2"
+  androidMinSdkVersion            = 19
+  androidTargetSdkVersion         = 25
+  androidCompileSdkVersion        = 25
+  androidApplicationId            = "com.cgrange.lectorrss"
+  androidVersionCode              = 1
+  androidVersionName              = "1.0"
+  testInstrumentationRunner       = "android.support.test.runner.AndroidJUnitRunner"
+}

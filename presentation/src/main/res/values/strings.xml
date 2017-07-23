@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LectorRSS</string>
+
+    <string name="empty_news">No hay noticias en este RSS</string>
+    <string name="connection_error">Error de conexión</string>
+
+    <string name="json">JSON feed</string>
+    <string name="xml">XML feed</string>
+
+    <string name="open_in_browser">Ver en el navegador</string>
+
+    <string name="settings">Preferencias</string>
+    <string name="settings_select_source">Seleccione un feed para el RSS:</string>
+
+</resources>

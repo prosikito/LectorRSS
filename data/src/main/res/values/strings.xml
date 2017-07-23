@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">data</string>
+
+    <string name="google_url">google-news</string>
+    <string name="abc_url">abc-news-au</string>
+    <string name="ars_technica_url">ars-technica</string>
+    <string name="bbc_news_url">bbc-news</string>
+    <string name="bbc_sport_url">bbc-sport</string>
+    <string name="bloomberg_url">bloomberg</string>
+    <string name="cnn_url">cnn</string>
+    <string name="daily_mail_url">daily-mail</string>
+    <string name="die_zeit_url">die-zeit</string>
+    <string name="financial_times_url">financial-times</string>
+    <string name="fox_sports_url">fox-sports</string>
+    <string name="mtv_news_url">mtv-news</string>
+    <string name="reddit_r_all_url">reddit-r-all</string>
+    <string name="techcrunch_url">techcrunch</string>
+    <string name="the_economist_url">the-economist</string>
+    <string name="the_guardian_uk_url">the-guardian-uk</string>
+    <string name="the_new_york_times_url">the-new-york-times</string>
+    <string name="the_telegraph_url">the-telegraph</string>
+    <string name="the_wall_street_journal_url">the-wall-street-journal</string>
+    <string name="the_washington_post_url">the-washington-post</string>
+
+    <string-array name="json_feed_urls">
+        <item>@string/google_url</item>
+        <item>@string/abc_url</item>
+        <item>@string/ars_technica_url</item>
+        <item>@string/bbc_news_url</item>
+        <item>@string/bbc_sport_url</item>
+        <item>@string/bloomberg_url</item>
+        <item>@string/cnn_url</item>
+        <item>@string/daily_mail_url</item>
+        <item>@string/die_zeit_url</item>
+        <item>@string/financial_times_url</item>
+        <item>@string/fox_sports_url</item>
+        <item>@string/mtv_news_url</item>
+        <item>@string/reddit_r_all_url</item>
+        <item>@string/techcrunch_url</item>
+        <item>@string/the_economist_url</item>
+        <item>@string/the_guardian_uk_url</item>
+        <item>@string/the_new_york_times_url</item>
+        <item>@string/the_telegraph_url</item>
+        <item>@string/the_wall_street_journal_url</item>
+        <item>@string/the_washington_post_url</item>
+    </string-array>
+</resources>
